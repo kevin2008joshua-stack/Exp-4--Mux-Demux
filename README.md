@@ -17,12 +17,9 @@ Boolean Functions
 ## Design / RTL Program
 <img width="1107" height="495" alt="Screenshot 2026-11-20 125933" src="https://github.com/user-attachments/assets/eb9eb36b-259b-487e-a18f-28180f92fa46" />
 
-
 ## **Testbench Program
 
 <img width="1725" height="1040" alt="Screenshot 2026-11-20 130255" src="https://github.com/user-attachments/assets/69e2ed85-9a22-4476-b465-699f006fea54" />
-
-
 ## Truth Table
 
 ### 2:1 Multiplexer
@@ -30,7 +27,6 @@ Boolean Functions
 <img width="573" height="154" alt="image" src="https://github.com/user-attachments/assets/96dd3fa2-7747-402d-b88f-17c11e28fcbb" />
 
 ### 1:2 Demultiplexer
-
 <img width="583" height="90" alt="image" src="https://github.com/user-attachments/assets/4bc21b52-1db5-4302-afab-ebb0b9d5a74b" />
 
 ## Simulation Procedure
@@ -77,20 +73,15 @@ o	Y1
 The waveform should agree with the truth table.
 
 ## Expected Result
-
 The 2:1 Multiplexer and 1:2 Demultiplexer were realized using Verilog HDL:
 
 •	Y = S'.A + S.B
 •	Y0 = S'.D, Y1 = S.D
 
 The design was compiled and simulated using Synopsys VCS, and the functionality was verified using DVE waveform analysis, matching the expected truth table.
-
 ## Output
 <img width="1851" height="472" alt="Screenshot 2026-11-20 141809" src="https://github.com/user-attachments/assets/43808889-7a51-4ec9-8a06-d4a3824bcce3" />
-
 <img width="1917" height="498" alt="Screenshot 2026-11-20 141825" src="https://github.com/user-attachments/assets/d0da37ee-60a4-4aeb-b7dd-9196b4d7281f" />
-
-
 ## Result
 
 Thus, the 2:1 Multiplexer and 1:2 Demultiplexer were designed, implemented using Verilog HDL, successfully simulated using Synopsys VCS, and verified using Synopsys DVE.
